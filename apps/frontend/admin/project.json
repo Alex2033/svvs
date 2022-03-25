@@ -62,7 +62,8 @@
         },
         "development": {
           "browserTarget": "frontend-admin:build:development",
-          "port": 4201
+          "port": 4201,
+          "proxyConfig": "apps/frontend/admin/proxy.conf.json"
         }
       },
       "defaultConfiguration": "development"
