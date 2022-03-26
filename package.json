@@ -12,6 +12,9 @@
     "frontend-admin:start": "ng serve frontend-admin",
     "frontend-admin:build": "ng build frontend-admin",
     "frontend-admin:test": "ng test frontend-admin",
+    "backend-admin:start": "ng serve backend-api",
+    "backend-admin:build": "ng build backend-api",
+    "backend-admin:test": "ng test backend-api",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test"
