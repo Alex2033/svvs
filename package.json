@@ -12,9 +12,9 @@
     "frontend-admin:start": "ng serve frontend-admin",
     "frontend-admin:build": "ng build frontend-admin",
     "frontend-admin:test": "ng test frontend-admin",
-    "backend-admin:start": "ng serve backend-api",
-    "backend-admin:build": "ng build backend-api",
-    "backend-admin:test": "ng test backend-api",
+    "backend-api:start": "ng serve backend-api",
+    "backend-api:build": "ng build backend-api",
+    "backend-api:test": "ng test backend-api",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test"
@@ -32,11 +32,14 @@
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^8.0.0",
+    "@nestjs/typeorm": "^8.0.3",
     "@nrwl/angular": "13.9.2",
     "@nrwl/nest": "^13.9.4",
+    "pg": "^8.7.3",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~7.4.0",
     "tslib": "^2.0.0",
+    "typeorm": "^0.3.3",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
